@@ -1,0 +1,10 @@
+.copy-item-panel{
+  width: 60vw;
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+.copy-item-text{
+  height: 25vh;
+  resize: none;
+}

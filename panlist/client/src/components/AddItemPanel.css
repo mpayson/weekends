@@ -1,0 +1,10 @@
+.add-item-panel{
+  width: 60vw;
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.add-item-text{
+  height: 10vh;
+  resize: none;
+}

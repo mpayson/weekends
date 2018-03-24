@@ -1,0 +1,20 @@
+{
+  "name": "panlist",
+  "version": "0.0.1",
+  "description": "util app to maintain a email list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "serve": "NODE_ENV=production PORT=8000 node server.js"
+  },
+  "author": "mpayson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}

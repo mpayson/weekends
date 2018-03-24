@@ -1,0 +1,9 @@
+.list-item {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.list-pane {
+  max-height: 375px;
+  overflow-y: scroll;
+}
