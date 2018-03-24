@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "office-ui-fabric-react": "^5.64.0",
     "papaparse": "^4.3.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -16,8 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
-  "devDependencies": {
-    "calcite-web": "github:Esri/calcite-web#v1.0.0-rc.8"
-  }
+  "proxy": "http://localhost:3001"
 }
