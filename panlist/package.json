@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "serve": "NODE_ENV=production PORT=7692 node server.js"
+    "serve": "node server.js"
   },
   "author": "mpayson",
   "license": "ISC",
