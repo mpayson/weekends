@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const Store = require('./store.js')
+const Store = require('./Store.js')
 
 let data;
 try{
