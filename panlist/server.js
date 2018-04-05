@@ -31,6 +31,10 @@ app.get('/api/listserves', (req, res) => {
   res.send(JSON.stringify({'listserves': listServes}))
 })
 
+app.get('/api/all', (req, res) => {
+  res.send(JSON.stringify(store.data))
+})
+
 app.get('/api/listserves/:name', (req,res) => {
   const name = req.params.name;
   res.send(JSON.stringify({'members': store.getListMembers(name)}))
