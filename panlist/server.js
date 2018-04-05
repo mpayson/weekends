@@ -63,6 +63,13 @@ app.post('/api/listserves/add', (req,res) => {
     .catch(er => res.status(500).send(er))
 })
 
+app.post('/api/listserves/delete', (req, res) => {
+  const name = req.body.name;
+  store.deleteList(name)
+  .then(result => res.send(JSON.stringify(result)))
+  .catch(er => res.status(500).send(er))
+})
+
 // Listen on the port
 app.listen(app.get('port'), () => {
   console.log(`${(process.env.NODE_ENV||'dev')} server at: http://localhost:${app.get('port')}/`);

@@ -102,8 +102,15 @@ module.exports = class Store {
 
   addList(listId){
     this.data[listId] = TEMPLATE;
+    console.log(listId, this.data[listId])
     return this.serialize()
       .then(res => ({"lists": this.getListServes()}));
+  }
+
+  deleteList(listId){
+    delete this.data[listId];
+    return this.serialize()
+      .then(res => ({"lists": this.getListServes()}))
   }
 
 }
